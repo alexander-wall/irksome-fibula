@@ -1,0 +1,10 @@
+{
+  "name": "dev",
+  "description": "Development environment",
+  "cookbook_versions": {
+    "al-default":  "= 0.1.0"
+  },
+  "default_attributes": {
+
+  }
+}

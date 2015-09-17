@@ -1,0 +1,12 @@
+{
+  "name": "base",
+  "description": "The role for all VMs",
+  "default_attributes": {
+    "chef_client": {
+      "server_url": "https://change/organizations/change"
+    }
+  },
+  "run_list": [
+    "recipe[al-default]"
+  ]
+}
