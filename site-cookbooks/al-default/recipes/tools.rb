@@ -1,8 +1,8 @@
 #
-# Cookbook Name:: ao-default
+# Cookbook Name:: al-default
 # Recipe:: tools
 #
-# Copyright 2014, Avi-on
+# Copyright 2014
 #
 # All rights reserved - Do Not Redistribute
 #

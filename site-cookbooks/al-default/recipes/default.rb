@@ -1,8 +1,8 @@
 #
-# Cookbook Name:: ao-default
+# Cookbook Name:: al-default
 # Recipe:: default
 #
-# Copyright 2014, Avi-on
+# Copyright 2014
 #
 # All rights reserved - Do Not Redistribute
 #
@@ -11,7 +11,7 @@
 include_recipe 'apt'
 
 # Tools needed to debug and perform basic troubleshooting on the servers
-include_recipe 'ao-default::tools'
+include_recipe 'al-default::tools'
 
 if Chef::Config[:solo] || Chef::Config.chef_zero.enabled
   # do nothing
