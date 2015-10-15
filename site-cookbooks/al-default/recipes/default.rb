@@ -8,7 +8,11 @@
 #
 
 #
-include_recipe 'apt'
+#include_recipe 'apt
+
+pacakage "git"
+
+log "that was too easy"
 
 # Tools needed to debug and perform basic troubleshooting on the servers
 include_recipe 'al-default::tools'
